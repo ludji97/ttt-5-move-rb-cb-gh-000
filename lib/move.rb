@@ -13,4 +13,7 @@ def input_to_index(user_input)
 end
 
 def move(array, index, value = "X")
-  
+  def update_array_at_with(array, index, value)
+    array[index] = value
+  end
+  return array
